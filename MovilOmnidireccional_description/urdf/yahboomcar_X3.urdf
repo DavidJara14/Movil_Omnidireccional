@@ -218,7 +218,7 @@
         <child link="camera_link"/>
     </joint>
 
-    <!-- Plugin robot omnidireccional Gazebo -->
+    <!-- Plugin robot omnidireccional Gazebo 
     
     <gazebo>
       <plugin name="gazebo_ros_mecanum_diff_drive" filename="libgazebo_ros_mecanum_drive.so">
@@ -242,5 +242,8 @@
         <isRollerModel>true</isRollerModel>
       </plugin>
     </gazebo>
+
+    -->
+
 
 </robot>
