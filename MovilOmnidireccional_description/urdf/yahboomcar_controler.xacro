@@ -5,9 +5,9 @@
 
     <xacro:include filename="$(find ${package_name})/urdf/yahboomcar_X3.urdf"/>
 
-   <!--<xacro:include filename="$(find ${package_name})/urdf/lidar.xacro"/>-->
+    <xacro:include filename="$(find ${package_name})/urdf/lidar.xacro"/>
 
-    <!-- <xacro:include filename="$(find ${package_name})/urdf/camera.xacro"/> -->
+    <xacro:include filename="$(find ${package_name})/urdf/camera.xacro"/>
 
     <xacro:include filename="$(find ${package_name})/urdf/imu.xacro"/>
 
