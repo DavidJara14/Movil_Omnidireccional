@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="yahboomcar_X3" xmlns:xacro="http://ros.org/wiki/xacro" >
+
+    <xacro:property name="package_name" value="MovilOmnidireccional_description"/>
+
+    <xacro:include filename="$(find ${package_name})/urdf/yahboomcar_X3.urdf"/>
+
+   <!--<xacro:include filename="$(find ${package_name})/urdf/lidar.xacro"/>-->
+
+    <!-- <xacro:include filename="$(find ${package_name})/urdf/camera.xacro"/> -->
+
+    <xacro:include filename="$(find ${package_name})/urdf/imu.xacro"/>
+
+ 
+ 
+ 
+   <!-- Los que faltan xD
+
+    <xacro:include filename="$(find ${package_name})/urdf/omnidirectional_gz_propierties.xacro"/>
+
+    <xacro:include filename="$(find ${package_name})/urdf/omnidirectional_control.xacro"/>
+
+
+    -->
+</robot>
