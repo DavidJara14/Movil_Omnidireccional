@@ -26,9 +26,9 @@
             </material>
         </visual>
         <collision>
-            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <origin xyz="0 0 -0.037" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://MovilOmnidireccional_description/meshes/X3/base_link.STL"/>
+                <box size="0.24 0.135 0.0735"/>
             </geometry>
         </collision>
     </link>
@@ -224,6 +224,9 @@
       <plugin name="gazebo_ros_mecanum_diff_drive" filename="libgazebo_ros_mecanum_drive.so">
         <commandTopic>cmd_vel</commandTopic>
         <odometryTopic>odom</odometryTopic>
+
+        .
+
         <odometryFrame>odom</odometryFrame>
         <robotBaseFrame>base_footprint</robotBaseFrame>
         <LeftRear>back_left_wheel</LeftRear>
