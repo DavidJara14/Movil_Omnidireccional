@@ -1,6 +1,6 @@
 <launch>
     <let name="urdf_path"
-        value="$(find-pkg-share MovilOmnidireccional_description)/urdf/yahboomcar_controler.xacro" />
+        value="$(find-pkg-share MovilOmnidireccional_description)/urdf/omnidirectional_X3_controler.xacro" />
 
     <let name="rviz_config"
         value="$(find-pkg-share MovilOmnidireccional_description)/rviz/yahboomcar_X3.rviz" />
