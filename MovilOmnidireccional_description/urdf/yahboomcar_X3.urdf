@@ -61,7 +61,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://MovilOmnidireccional_description/meshes/X3/front_right_wheel.STL"/>
+                <cylinder radius="0.0325" length="0.030" />
             </geometry>
         </collision>
     </link>
@@ -91,7 +91,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://MovilOmnidireccional_description/meshes/X3/front_left_wheel.STL"/>
+                <cylinder radius="0.0325" length="0.030" />
             </geometry>
         </collision>
     </link>
@@ -121,7 +121,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://MovilOmnidireccional_description/meshes/X3/back_right_wheel.STL"/>
+                <cylinder radius="0.0325" length="0.030" />
             </geometry>
         </collision>
     </link>
@@ -151,7 +151,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://MovilOmnidireccional_description/meshes/X3/back_left_wheel.STL"/>
+                <cylinder radius="0.0325" length="0.030" />
             </geometry>
         </collision>
     </link>
