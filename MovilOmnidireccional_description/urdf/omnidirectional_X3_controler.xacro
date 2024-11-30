@@ -5,14 +5,16 @@
 
     <xacro:include filename="$(find ${package_name})/urdf/omnidirectional_X3.urdf"/>
 
+    <xacro:include filename="$(find ${package_name})/urdf/omnidirectional_gz_propierties.xacro"/>
+
+    <xacro:include filename="$(find ${package_name})/urdf/omnidirectional_control.xacro"/>
+    
     <xacro:include filename="$(find ${package_name})/urdf/lidar.xacro"/>
 
     <xacro:include filename="$(find ${package_name})/urdf/camera.xacro"/>
 
     <xacro:include filename="$(find ${package_name})/urdf/imu.xacro"/>
 
-    <xacro:include filename="$(find ${package_name})/urdf/omnidirectional_gz_propierties.xacro"/>
 
-    <xacro:include filename="$(find ${package_name})/urdf/omnidirectional_control.xacro"/>
 
 </robot>

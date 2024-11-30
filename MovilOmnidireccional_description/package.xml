@@ -42,5 +42,6 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path = "/home/robousr/ROS2Dev/proyecto_ws/install/MovilOmnidireccional_description/share"/>
   </export>
 </package>

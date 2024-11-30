@@ -25,7 +25,7 @@ find_package(control_msgs REQUIRED) #for ros control
 find_package(rclcpp_action REQUIRED) #for ros control actions
 
 install(
-  DIRECTORY launch meshes rviz urdf
+  DIRECTORY launch meshes rviz urdf config 
   DESTINATION share/${PROJECT_NAME}/
 )
 
